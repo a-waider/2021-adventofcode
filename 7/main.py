@@ -1,6 +1,3 @@
-from math import factorial
-
-
 def parseFile(input: str) -> 'dict[int, int]':
     crabs: list[int] = []
     for crab in input.split(","):
